@@ -25,8 +25,6 @@ struct LiveCallDialogue: View {
             }
             .padding(.horizontal)
             .padding(.top, 20)
-            //shadow on the bottom
-//            .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 0, y: 5)
             ScrollView {
                 LazyVStack(spacing: 10) {
                     ForEach(liveCall.messages) { message in

@@ -66,8 +66,6 @@ struct AudioPlayButton: View {
         .background(.ultraThinMaterial, in:
                         RoundedRectangle(cornerRadius: 20, style: .continuous))
         .clipShape(Capsule())
-        .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 0, y: 5)
-        //        .cornerRadius(10)
         .onAppear {
             self.setupAudio(callId: callId)
         }

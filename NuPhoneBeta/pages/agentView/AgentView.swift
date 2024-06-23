@@ -84,8 +84,6 @@ struct AgentView: View {
                         }
                         .background(.ultraThinMaterial, in:
                                         RoundedRectangle(cornerRadius: 10, style: .continuous))
-                        
-                        .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 0, y: 5)
                        
                     }
                     .padding(.horizontal, 20)

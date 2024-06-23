@@ -29,7 +29,6 @@ extension View {
             //.background(scheme == .dark ? Color.black : Color.white)
             .background(Color.white)
             .clipShape(RoundedRectangle(cornerRadius: 10))
-//            .shadow(color: Color("shadow").opacity(0.1), radius: 2, x: 0, y: 2)
             .overlay(
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(Color.gray.opacity(0.2), lineWidth: 1)
@@ -56,8 +55,6 @@ extension View {
 //                            RoundedRectangle(cornerRadius: 20, style: .continuous))
             .padding(.horizontal, 20)
             .padding(.vertical, 5)
-            .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 1, y: 5)
-//            .shadow(color: Color("shadow").opacity(0.3), radius: 10, x: 0, y: 10)
     }
         
     @ViewBuilder
@@ -76,8 +73,6 @@ extension View {
 //                .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
             .padding(.horizontal, 20)
             .padding(.vertical, 5)
-            .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 1, y: 5)
-//            .shadow(color: Color("shadow").opacity(0.3), radius: 10, x: 0, y: 10)
     }
     
     @ViewBuilder
@@ -93,8 +88,6 @@ extension View {
 //                            RoundedRectangle(cornerRadius: 20, style: .continuous))
             .padding(.horizontal, 20)
             .padding(.vertical, 5)
-            .shadow(color: Color("shadow").opacity(0.1), radius: 5, x: 1, y: 5)
-//            .shadow(color: Color("shadow").opacity(0.3), radius: 10, x: 0, y: 10)
     }
     
     @ViewBuilder
