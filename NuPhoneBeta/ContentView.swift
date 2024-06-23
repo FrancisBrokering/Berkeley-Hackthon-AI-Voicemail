@@ -66,9 +66,6 @@ struct ContentView: View {
                 }
                 else {
                     mainContent
-//                                                                        InstructionView()
-                    //                            .transition(.move(edge: .trailing))
-                    
                 }
             }
         }
