@@ -49,7 +49,6 @@
 		9509D3862B897B5D00B75B58 /* AccountAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509D3852B897B5D00B75B58 /* AccountAPI.swift */; };
 		9509D3882B89850A00B75B58 /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509D3872B89850A00B75B58 /* AccountData.swift */; };
 		9509D38A2B8D47BC00B75B58 /* OrDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509D3892B8D47BC00B75B58 /* OrDivider.swift */; };
-		9509D38C2B8D541100B75B58 /* PremiumIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509D38B2B8D541100B75B58 /* PremiumIcon.swift */; };
 		951350542B7F1864002B7608 /* MovingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951350532B7F1864002B7608 /* MovingBackground.swift */; };
 		951350562B801ED3002B7608 /* AudioPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951350552B801ED3002B7608 /* AudioPlayButton.swift */; };
 		951350582B80467B002B7608 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951350572B80467B002B7608 /* BottomNavBar.swift */; };
@@ -70,8 +69,6 @@
 		955ACB212BC481FD00D7A55D /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ACB202BC481FD00D7A55D /* ContactImageView.swift */; };
 		955ACB232BC48BBF00D7A55D /* CustomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ACB222BC48BBF00D7A55D /* CustomSheet.swift */; };
 		955ACB282BC48F9300D7A55D /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ACB272BC48F9300D7A55D /* CommonFunctions.swift */; };
-		9565F2222B8E675D00FD5CDC /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565F2212B8E675D00FD5CDC /* RadioButton.swift */; };
-		9565F2252B8EC3F800FD5CDC /* EditIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565F2242B8EC3F800FD5CDC /* EditIcon.swift */; };
 		9565F2272B8EC9A800FD5CDC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565F2262B8EC9A800FD5CDC /* NavigationBar.swift */; };
 		9565F2292B902A7B00FD5CDC /* NameUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565F2282B902A7B00FD5CDC /* NameUserView.swift */; };
 		9565F22B2B91262100FD5CDC /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565F22A2B91262100FD5CDC /* Input.swift */; };
@@ -176,7 +173,6 @@
 		9509D3852B897B5D00B75B58 /* AccountAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAPI.swift; sourceTree = "<group>"; };
 		9509D3872B89850A00B75B58 /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
 		9509D3892B8D47BC00B75B58 /* OrDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrDivider.swift; sourceTree = "<group>"; };
-		9509D38B2B8D541100B75B58 /* PremiumIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumIcon.swift; sourceTree = "<group>"; };
 		951350532B7F1864002B7608 /* MovingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingBackground.swift; sourceTree = "<group>"; };
 		951350552B801ED3002B7608 /* AudioPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayButton.swift; sourceTree = "<group>"; };
 		951350572B80467B002B7608 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
@@ -196,8 +192,6 @@
 		955ACB202BC481FD00D7A55D /* ContactImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactImageView.swift; sourceTree = "<group>"; };
 		955ACB222BC48BBF00D7A55D /* CustomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheet.swift; sourceTree = "<group>"; };
 		955ACB272BC48F9300D7A55D /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
-		9565F2212B8E675D00FD5CDC /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
-		9565F2242B8EC3F800FD5CDC /* EditIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIcon.swift; sourceTree = "<group>"; };
 		9565F2262B8EC9A800FD5CDC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		9565F2282B902A7B00FD5CDC /* NameUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameUserView.swift; sourceTree = "<group>"; };
 		9565F22A2B91262100FD5CDC /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
@@ -284,6 +278,7 @@
 		8CEF0EE42AD11D5500511F63 /* NuPhoneBeta */ = {
 			isa = PBXGroup;
 			children = (
+				9577830F2C289E6400BD518F /* Preview Content */,
 				950705362B684A6F00DCAEDD /* NuPhoneBetaDebug.entitlements */,
 				8CEF0EE92AD11D5700511F63 /* Assets.xcassets */,
 				959D88A22B1EBE5100965AAB /* assets */,
@@ -405,7 +400,6 @@
 			isa = PBXGroup;
 			children = (
 				9502120B2BE5623D00B003E0 /* popups */,
-				9565F2232B8EC3E500FD5CDC /* icons */,
 				9565F22A2B91262100FD5CDC /* Input.swift */,
 				95CF18532AF0670000EB0EAA /* Styles.swift */,
 				95CF186D2AF08FD300EB0EAA /* GradientButton.swift */,
@@ -416,7 +410,6 @@
 				9509D3632B86B44300B75B58 /* SegmentPicker.swift */,
 				9509D3812B895F1800B75B58 /* ProgressBar.swift */,
 				9509D3892B8D47BC00B75B58 /* OrDivider.swift */,
-				9565F2212B8E675D00FD5CDC /* RadioButton.swift */,
 				9565F2262B8EC9A800FD5CDC /* NavigationBar.swift */,
 				95591C692B9A8776007E923A /* TextBubbleView.swift */,
 				95AC69972BA2724900BA4DB9 /* LoadingOverlay.swift */,
@@ -474,15 +467,6 @@
 			path = agentView;
 			sourceTree = "<group>";
 		};
-		9565F2232B8EC3E500FD5CDC /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				9509D38B2B8D541100B75B58 /* PremiumIcon.swift */,
-				9565F2242B8EC3F800FD5CDC /* EditIcon.swift */,
-			);
-			path = icons;
-			sourceTree = "<group>";
-		};
 		9565F22C2B9139EC00FD5CDC /* VIewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,6 +494,13 @@
 				95A13AC92C18FCFD00095DEB /* ActionsView.swift */,
 			);
 			path = instructions;
+			sourceTree = "<group>";
+		};
+		9577830F2C289E6400BD518F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		959D888F2B1E72DF00965AAB /* voices */ = {
@@ -670,7 +661,6 @@
 				951350582B80467B002B7608 /* BottomNavBar.swift in Sources */,
 				959D88AC2B1EC82100965AAB /* OTPVerificationView.swift in Sources */,
 				9565F2272B8EC9A800FD5CDC /* NavigationBar.swift in Sources */,
-				9565F2222B8E675D00FD5CDC /* RadioButton.swift in Sources */,
 				8CEF0F502AD1254900511F63 /* PhoneView.swift in Sources */,
 				95CF18512AEC8CCF00EB0EAA /* LoadingView.swift in Sources */,
 				9509D36A2B880F0500B75B58 /* NetworkMonitor.swift in Sources */,
@@ -714,7 +704,6 @@
 				9509D3842B897A6600B75B58 /* AccountManager.swift in Sources */,
 				9565F2302B913A6800FD5CDC /* KeyboardResponsiveModifier.swift in Sources */,
 				9509D3682B88087800B75B58 /* NetworkErrorView.swift in Sources */,
-				9565F2252B8EC3F800FD5CDC /* EditIcon.swift in Sources */,
 				95CF18542AF0670000EB0EAA /* Styles.swift in Sources */,
 				8CEF0F4A2AD124EE00511F63 /* LoginView.swift in Sources */,
 				951350562B801ED3002B7608 /* AudioPlayButton.swift in Sources */,
@@ -728,7 +717,6 @@
 				8CEF0F362AD123A000511F63 /* AgentManager.swift in Sources */,
 				8CEF0F4E2AD1253700511F63 /* LiveCallDialogue.swift in Sources */,
 				8CEF0F3F2AD1245500511F63 /* CallData.swift in Sources */,
-				9509D38C2B8D541100B75B58 /* PremiumIcon.swift in Sources */,
 				95CF18732AF1FD5F00EB0EAA /* WelcomeView.swift in Sources */,
 				9509D3862B897B5D00B75B58 /* AccountAPI.swift in Sources */,
 				95591C6A2B9A8776007E923A /* TextBubbleView.swift in Sources */,

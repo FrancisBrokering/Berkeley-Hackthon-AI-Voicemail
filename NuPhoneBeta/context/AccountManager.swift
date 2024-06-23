@@ -8,6 +8,7 @@ class AccountManager: ObservableObject {
     @Published var userAccount: Account?
     @Published var dedicatedNumber: String?
     @Published var userName: String = ""
+    @Published var plan: String = ""
     
     private init() {
         getUserAccount()
