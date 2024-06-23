@@ -180,10 +180,6 @@ func generateAgentPrompt(plan: String, promptConfig: PromptConfig, agentName: St
         }
     }
     
-    if plan == "free" {
-        prompt += "\nPOWERED BY NUPHONE\nNuPhone is the world-first conversational AI voicemail which is available for free on the App Store."
-    }
-    
     return prompt
 }
 
